@@ -1,0 +1,63 @@
+:root {
+    --light-bg: #f9f9f9;
+    --light-black: #333;
+    --border: 1px solid #ddd;
+    --black: #000;
+    --white: #fff;
+    --light-white: #ccc;
+}
+
+.booking .book-form {
+    padding: 2rem;
+    background: var(--light-bg);
+}
+
+.booking .book-form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.booking .book-form .flex .inputbox {
+    flex: 1 1 calc(50% - 1rem);
+    min-width: calc(50% - 1rem);
+}
+
+.booking .book-form .flex .inputbox input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1.4rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 0.5rem;
+    border: var(--border);
+}
+
+.booking .book-form .flex .inputbox input:focus {
+    background: var(--black);
+    color: var(--white);
+}
+
+.booking .book-form .flex .inputbox input:focus::placeholder {
+    color: var(--light-white);
+}
+
+.booking .book-form .flex .inputbox span {
+    font-size: 1.4rem;
+    color: var(--light-black);
+}
+
+.booking .book-form .submit {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background: var(--black);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+
+.booking .book-form .submit:hover {
+    background: var(--light-black);
+}
+

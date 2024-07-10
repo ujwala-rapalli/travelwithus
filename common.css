@@ -1,0 +1,62 @@
+boby{
+    font-family:poppins;
+}
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+   
+}
+.navbar-light .navbar-brand{
+    
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.btn-primary,
+  .btn-primary:focus {
+      background-color: #000000 !important; /* Black background */
+      border-color: #000000 !important; /* Black border */
+      color: #ffffff !important; /* White text */
+     
+  }
+  .btn-primary:hover{
+    color: #000000 !important; /* Black text */
+      border-color: #000000 !important; /* Black border */
+      background-color: #ffffff !important; 
+  }
+  
+  /* Outline buttons */
+  .btn-outline-primary,
+  .btn-outline-primary:focus {
+      color: #000000 !important; /* Black text */
+      border-color: #000000 !important; /* Black border */
+      background-color: #ffffff !important; /* White background */
+     
+     
+  }
+  .btn-outline-primary:hover{
+    background-color: #000000 !important; /* Black background */
+      border-color: #000000 !important; /* Black border */
+      color: #ffffff !important; 
+  }
+  .ser{
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+   
+        margin: 0;
+        padding: 0;
+    
+ 
+  }
+  .card-img-top{
+    height: 70vh;
+   
+  }

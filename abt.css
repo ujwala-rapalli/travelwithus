@@ -1,0 +1,22 @@
+.card-img{
+    height: 140px;
+}
+.service-btn {
+    height: 60px;
+  
+    margin: auto;
+    cursor: pointer;
+  color: black !important;
+    
+}
+
+.service-btn:hover {
+    transition: width 2s, height 2s;
+    width: 200px;
+    height: 100px;
+    background: black !important;/* Optional: Change the background color on hover */
+}
+
+
+
+
